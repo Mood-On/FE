@@ -1,0 +1,54 @@
+:root{
+    --WHITE:#FEFEFE;
+    --BLACK01:#333;
+    --BLACK02:#666;
+    --BLUE00:#3E8EFF;
+    --BLUE01:#67A6FF;
+    --BLUE02:#DFECFF;
+    --BLUE03:#0046A9; /*dark*/
+    --BORDER:#DDD;
+    --GRAY:#EEE;
+}
+
+.screen{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--WHITE);
+}
+
+.screen .logoArea{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+    gap:24px;
+}
+
+.screen .logo{
+    width: 160px;
+}
+
+.titles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titles p{
+    margin: 0px;
+}
+
+.titles .title{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: var(--BLACK01);
+}
+
+.titles .subTitle{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--BLACK01);
+}
